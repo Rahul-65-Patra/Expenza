@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content{
+   height:70vh;
+}
+.navbar{
+  background-color:rgba(255, 166, 0, 0.899) !important;;
+}
+.register-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+  
+
+/* transection page */
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+  margin-bottom: 10px;
+}
+
+
+/* antd icons */
+.switch-icons{
+  border: 1px solid green;
+  box-shadow: 0px 0px 2px rgba(5, 217, 5, 0.995);
+  border-radius: 5px;
+  padding: 10px 15px;;
+}
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+.active-icon{
+   color:black
+}
+.inactive-icon{
+  color: gray;
+}
+.filter-tab .ant-select-selector {
+  width: 150px !important;
+}
